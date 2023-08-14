@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .clamped-text {
+        font-size: clamp(10px, 3vw, 32px);
+      }
+    </style>
+  </head>
+  <body onresize="myFunction()">
+    <!-- <input type="text" onfocus="myFunction()">
+  <input type="text" onblur="myFunction()">
+<input type="text" onkeyup="myFunction(event)">
+<div onscroll="myFunction()"></div>
+<div oncontextmenu="myFunction(event)"></div> -->
+    <p class="clamped-text">
+      This is a long text that will be truncated using the clamp function in
+      CSS.
+    </p>
+  </body>
+</html>
